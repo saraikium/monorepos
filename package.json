@@ -1,0 +1,9 @@
+{
+  "name": "js-ts-monotrepos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:saraikium/monorepos.git",
+  "author": "Adnan Khan <adnank122@gmail.com>",
+  "license": "BSD-2-Clause",
+  "private": true
+}
