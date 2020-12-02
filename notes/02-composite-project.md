@@ -42,7 +42,9 @@ This new `@shlack/utils` package will need a `package.json`, so let's create one
   },
   "devDependencies": {
     "@types/date-fns": "^2.6.0",
+    "@types/jest": "^26.0.16",
     "@types/react": "^16.9.52",
+    "jest": "^26.6.3",
     "typescript": "^4.0.3"
   },
   "dependencies": {
@@ -72,7 +74,7 @@ we'll need a `tsconfig.json` as well, and it'll be almost _exactly_ the same as 
 }
 ```
 
-and then create a `utils/package.json`
+and then update the `utils/tsconfig.json`
 
 ```json
 {
@@ -86,7 +88,7 @@ and then create a `utils/package.json`
 }
 ```
 
-and then update your `types/package.json` so that it exactly matches
+and then update your `types/tsconfig.json` so that it exactly matches
 
 ```diff
 @@ -1,14 +1,7 @@
